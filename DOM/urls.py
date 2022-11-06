@@ -2,6 +2,8 @@
 from . import views
 from django.urls import path
 
+# URL routing patterns for navigating
+
 urlpatterns = [
     path("",views.index,name="index"),
     path("home",views.home,name=""),
